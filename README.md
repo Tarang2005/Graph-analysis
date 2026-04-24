@@ -8,7 +8,7 @@ This repository contains the solution for the SRM Full Stack Engineering Challen
 - `client/` - The React + Tailwind frontend
 
 ## Live Deployment Links
-- **Frontend App:** [Live on Vercel](https://graph-analysis-tarang.vercel.app) *(Replace with your actual Vercel URL)*
+- **Frontend App:** [Live on Vercel](https://graph-analysis-ecru.vercel.app/)
 - **Backend API:** [Live on Render](https://graph-analysis.onrender.com)
 
 ## Requirements
