@@ -53,7 +53,7 @@ function App() {
         throw new Error("Invalid JSON format");
       }
 
-      const res = await axios.post('http://localhost:3001/bfhl', parsed);
+      const res = await axios.post('https://graph-analysis.onrender.com/bfhl', parsed);
       setResponse(res.data);
     } catch (err) {
       setError(err.response?.data?.message || err.message || "An error occurred");

@@ -5,6 +5,10 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+app.get('/', (req, res) => {
+  res.send('SRM Graph Analysis API is live! Send POST requests to /bfhl');
+});
+
 app.post('/bfhl', (req, res) => {
   const data = req.body.data;
 
