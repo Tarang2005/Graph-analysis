@@ -7,6 +7,10 @@ This repository contains the solution for the SRM Full Stack Engineering Challen
 - `api/` - The Express.js REST API backend
 - `client/` - The React + Tailwind frontend
 
+## Live Deployment Links
+- **Frontend App:** [Live on Vercel](https://graph-analysis-tarang.vercel.app) *(Replace with your actual Vercel URL)*
+- **Backend API:** [Live on Render](https://graph-analysis.onrender.com)
+
 ## Requirements
 - Node.js (v18+ recommended)
 - npm or yarn
